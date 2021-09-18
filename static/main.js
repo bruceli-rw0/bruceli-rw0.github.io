@@ -7,6 +7,7 @@ $("#transform-button").on('click', function () {
     // displayImage(drawing);
 
     fetch("https://q9ppiahe84.execute-api.us-east-2.amazonaws.com/development/", {
+        mode: 'no-cors',
         method: "POST",
         headers: {
             "Content-Type": "application/json"

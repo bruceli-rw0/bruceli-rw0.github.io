@@ -6,9 +6,8 @@ $("#transform-button").on('click', function () {
     var drawing = defaultBoard.getImg();
     // displayImage(drawing);
 
-    fetch("/transform", {
+    fetch("https://q9ppiahe84.execute-api.us-east-2.amazonaws.com/development", {
         method: "POST",
-        action: "https://q9ppiahe84.execute-api.us-east-2.amazonaws.com/development",
         headers: {
             "Content-Type": "application/json"
         },

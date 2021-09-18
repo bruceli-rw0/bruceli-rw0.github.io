@@ -8,6 +8,7 @@ $("#transform-button").on('click', function () {
 
     fetch("/transform", {
         method: "POST",
+        action: "https://q9ppiahe84.execute-api.us-east-2.amazonaws.com/development",
         headers: {
             "Content-Type": "application/json"
         },
